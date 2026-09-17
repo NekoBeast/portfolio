@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import meow from "../../img/meow.jpg";
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -96,7 +96,7 @@ export default function Portfolio() {
           {/* Main Hero Text Box */}
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-block border-2 border-black bg-black text-white px-3 py-1 text-xs font-black uppercase tracking-widest">
-              Issue #01 • Kathmandu, Nepal[cite: 1]
+              Issue #01 • Kathmandu, Nepal
             </div>
 
             <h1 className="text-5xl sm:text-7xl font-black uppercase tracking-tighter leading-none italic">
@@ -108,8 +108,8 @@ export default function Portfolio() {
             <div className="relative border-4 border-black p-6 bg-white shadow-[8px_8px_0_0_rgba(0,0,0,1)]">
               <p className="text-base sm:text-lg font-bold leading-snug">
                 "I craft web applications with tight responsive architecture!
-                Currently pushing front-end code at Pagoda Labs[cite: 1] &
-                exploring AI/IoT frontiers![cite: 1]"
+                Currently pushing front-end code at Pagoda Labs &
+                exploring AI/IoT frontiers!"
               </p>
               {/* Speech bubble pointer */}
               <div className="absolute -bottom-4 left-8 w-0 h-0 border-l-[16px] border-l-transparent border-r-[16px] border-r-transparent border-t-[16px] border-t-black"></div>
@@ -128,7 +128,7 @@ export default function Portfolio() {
                 rel="noreferrer"
                 className="border-4 border-black bg-white text-black px-8 py-4 font-black uppercase tracking-wider text-sm shadow-[6px_6px_0_0_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
               >
-                GitHub Profile[cite: 1]
+                GitHub Profile
               </a>
             </div>
           </div>
@@ -137,7 +137,13 @@ export default function Portfolio() {
           <div className="lg:col-span-5 relative">
             <div className="border-4 border-black p-3 bg-white shadow-[12px_12px_0_0_rgba(0,0,0,1)] transform rotate-1">
               {/* Placeholder image container */}
-              <div className="aspect-[4/5] bg-slate-100 border-2 border-black flex flex-col items-center justify-center p-6 text-center relative overflow-hidden group">
+              <div
+                className="aspect-[4/5] bg-slate-100 border-2 border-black flex flex-col items-center justify-center p-6 text-center relative overflow-hidden group"
+                style={{
+                  backgroundImage: meow,
+                  backgroundSize: "300px 200px",
+                }}
+              >
                 {/* Comic Speed Lines Pattern */}
                 <div
                   className="absolute inset-0 opacity-20 pointer-events-none"
@@ -154,7 +160,7 @@ export default function Portfolio() {
                 </p>
               </div>
               <div className="text-right text-xs font-black uppercase mt-2 tracking-widest">
-                FIG 1.0 — SUSHIL RAI[cite: 1]
+                FIG 1.0 — SUSHIL RAI
               </div>
             </div>
           </div>
@@ -243,36 +249,36 @@ export default function Portfolio() {
           {/* Experience Arc */}
           <div className="lg:col-span-7 space-y-6">
             <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tighter border-b-4 border-black pb-2">
-              CURRENT ARC: PAGODA LABS[cite: 1]
+              CURRENT ARC: PAGODA LABS
             </h2>
 
             <div className="border-4 border-black p-6 bg-white shadow-[8px_8px_0_0_rgba(0,0,0,1)]">
               <div className="flex justify-between items-start mb-4 border-b-2 border-black pb-2">
                 <div>
                   <h3 className="text-xl font-black uppercase">
-                    WEB DEVELOPMENT INTERN[cite: 1]
+                    WEB DEVELOPMENT INTERN
                   </h3>
                   <p className="text-xs font-bold text-slate-600">
-                    PAGODA LABS • KATHMANDU, NEPAL[cite: 1]
+                    PAGODA LABS • KATHMANDU, NEPAL
                   </p>
                 </div>
                 <span className="font-black text-xs border-2 border-black px-2 py-1 bg-black text-white">
-                  2024 - PRESENT[cite: 1]
+                  2024 - PRESENT
                 </span>
               </div>
 
               <ul className="space-y-3 text-sm font-bold list-disc list-inside">
                 <li>
                   Translating wireframe concepts into fully functional,
-                  responsive client interfaces.[cite: 1]
+                  responsive client interfaces.
                 </li>
                 <li>
                   Collaborating in daily agile stand-ups for sprint planning and
-                  feature improvements.[cite: 1]
+                  feature improvements.
                 </li>
                 <li>
                   Debugging critical UI issues to increase speed and user
-                  retention.[cite: 1]
+                  retention.
                 </li>
               </ul>
             </div>
@@ -283,10 +289,10 @@ export default function Portfolio() {
                 ACADEMICS
               </span>
               <h3 className="text-lg font-black uppercase mt-1">
-                BACHELOR OF INFORMATION TECHNOLOGY (BIT)[cite: 1]
+                BACHELOR OF INFORMATION TECHNOLOGY (BIT)
               </h3>
               <p className="text-xs font-bold text-slate-600">
-                TEXAS INTERNATIONAL COLLEGE • GOKARNESHWOR[cite: 1]
+                TEXAS INTERNATIONAL COLLEGE • GOKARNESHWOR
               </p>
             </div>
           </div>
@@ -327,7 +333,7 @@ export default function Portfolio() {
                   Side Interests
                 </h4>
                 <p className="text-xs font-bold">
-                  AI LEARNING & INTERNET OF THINGS (IOT) DEVELOPMENT[cite: 1]
+                  AI LEARNING & INTERNET OF THINGS (IOT) DEVELOPMENT
                 </p>
               </div>
             </div>
@@ -357,13 +363,13 @@ export default function Portfolio() {
               href="mailto:snarutorai@gmail.com"
               className="border-4 border-black bg-black text-white px-8 py-4 font-black uppercase text-sm shadow-[6px_6px_0_0_rgba(200,200,200,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
             >
-              snarutorai@gmail.com[cite: 1]
+              snarutorai@gmail.com
             </a>
             <a
               href="tel:9716093439"
               className="border-4 border-black bg-white text-black px-8 py-4 font-black uppercase text-sm shadow-[6px_6px_0_0_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
             >
-              +977 9716093439[cite: 1]
+              +977 9716093439
             </a>
           </div>
         </div>
@@ -371,7 +377,7 @@ export default function Portfolio() {
 
       {/* Footer */}
       <footer className="border-t-4 border-black py-6 text-center font-black text-xs uppercase bg-white">
-        © SUSHIL RAI • KATHMANDU, NEPAL[cite: 1]
+        © SUSHIL RAI • KATHMANDU, NEPAL
       </footer>
     </div>
   );
